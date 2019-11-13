@@ -135,7 +135,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         resetGameConfig()
     }
     fileprivate func resetGameConfig(){
-        resetGameButton.isHidden = false
+        resetGameButton.isHidden = true
         player1.markedPositions = []
         player2.markedPositions = []
         isRunning = true
